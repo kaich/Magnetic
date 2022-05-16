@@ -97,7 +97,7 @@ import SpriteKit
         
         magneticField.region = SKRegion(radius: radius)
         magneticField.minimumRadius = radius
-        magneticField.strength = strength
+        magneticField.strength = strength * 3
         magneticField.position = CGPoint(x: size.width / 2, y: size.height / 2)
     }
     
